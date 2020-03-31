@@ -1,6 +1,8 @@
 PROJE AÇIKLAMASI :
 Locationiq API (latitude longitude bilgisi) ve darksky API (lokasyon bazlı sıcaklık verisi) kullanılarak;
 şehir bazlı meteorolojik veri elde eden servis ve monitörleme ekranı.
+WebAPI a gelen sorgulamalar şehir bazlı cache üzerinde tutulmuştur.
+Ayrıca; WebAPI ye gelen her bir yeni sorgu Monitör ekranlarına push edilmektedir (SignalR ile).
 
 
 DEPLOYMENT Notları :
